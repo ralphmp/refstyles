@@ -1,0 +1,37 @@
+NAME
+Documentation of jstyle at: http://help.jabref.org/en/OpenOfficeIntegration
+abnt-custom
+
+PROPERTIES
+Title="Referências Bibliográficas "
+IsSortByPosition=false
+IsNumberEntries=false
+ReferenceParagraphFormat="Standard"
+ReferenceHeaderParagraphFormat="Standard"
+
+
+CITATION
+MaxAuthors=2
+MaxAuthorsFirst=2
+AuthorSeparator=" &"
+AuthorLastSeparator=" & "
+EtAlString=" et al."
+CitationSeparator=" ; "
+MultiCiteChronological=true
+BracketBefore="("
+BracketAfter=")"
+BracketBeforeInList="["
+BracketAfterInList="]"
+MinimumGroupingCount=3
+CitationCharacterFormat="Standard"
+FormatCitations=true
+GroupedNumbersSeparator="-"
+UniquefierSeparator=","
+InTextYearSeparator=", "
+YearSeparator=", "
+
+LAYOUT
+default=\begin{author}\format[Authors(LastFirst,sep= ; ,LastSep= ; ,EtAl= et al.,inf,9),ToUpperCase,]{\author}\end{author}\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}<b>\begin{journal} \format[RemoveLatexCommands]{\journal},\end{journal}</b>\begin{volume} v. \format[RemoveLatexCommands]{\volume},\end{volume}\begin{number} n. \format[RemoveLatexCommands]{\number}, \end{number}\begin{pages} p. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}, \end{pages}\begin{year} \year\uniq.\end{year}\begin{doi} DOI: \doi\format[RemoveLatexCommands]{\empty}\end{doi}<br>
+article=\begin{author}\format[Authors(LastFirst,sep= ; ,LastSep= ; ,EtAl= et al.,inf,9),ToUpperCase,]{\author}\end{author}\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}<b>\begin{journal} \format[RemoveLatexCommands]{\journal},\end{journal}</b>\begin{volume} v. \format[RemoveLatexCommands]{\volume},\end{volume}\begin{number} n. \format[RemoveLatexCommands]{\number}, \end{number}\begin{pages} p. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}, \end{pages}\begin{year}\year\uniq.\end{year}\begin{doi}DOI: \doi\format[RemoveLatexCommands]{\empty}\end{doi}<br>
+book=\begin{author}\format[Authors(LastFirst,sep= ; ,LastSep= ; ,EtAl= et al.,inf,9),ToUpperCase,]{\author}\end{author}<b>\begin{title} \format[RemoveLatexCommands]{\title}.\end{title}</b>\begin{edition} \format[RemoveLatexCommands]{\edition}. ed. \end{edition}\begin{volume}vol. \format[RemoveLatexCommands]{\volume}.\end{volume}\begin{publisher} \format[RemoveLatexCommands]{\publisher},\end{publisher}\begin{year} \year\uniq.\end{year}\begin{pages} \format[RemoveLatexCommands,FormatPagesForHTML]{\pages} p.\end{pages}<br>
+InBook=\begin{author}\format[Authors(LastFirst,sep= ; ,LastSep= ; ,EtAl= et al.,inf,9),ToUpperCase,]{\author}\end{author}\begin{title} \format[RemoveLatexCommands]{\title}. In: \end{title}\begin{editor}\format[Authors(LastFirst,sep= ; ,LastSep= ; ,EtAl= et al.,inf,9),ToUpperCase,]{\editor} (Ed.).\end{editor}<b>\begin{booktitle} \format[RemoveLatexCommands]{\booktitle}. \end{booktitle}</b>\begin{volume}vol. \format[RemoveLatexCommands]{\volume}.\end{volume}\begin{edition} \format[RemoveLatexCommands]{\edition}. ed. \end{edition}\begin{address} \format[RemoveLatexCommands]{\address}:\end{address}\begin{publisher} \format[RemoveLatexCommands]{\publisher},\end{publisher}\begin{year} \year\uniq.\end{year}\begin{chapter} cap. \format[RemoveLatexCommands]{\chapter}.\end{chapter}\begin{pages} p. \format[RemoveLatexCommands,FormatPagesForHTML]{\pages}.\end{pages}<br>
